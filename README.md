@@ -46,7 +46,7 @@ Detector/
 Clone o repositório:
 
 ```
-git clone https://github.com/seuusuario/seuprojeto.git
+git clone git clone https://github.com/BrunaVillanova/detector-ia.git
 ```
 
 Entre na pasta do projeto:
