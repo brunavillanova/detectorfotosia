@@ -30,16 +30,13 @@ O usuário pode:
 ## 📂 Estrutura do projeto
 
 ```
-projeto/
-│
-├── app.py
-├── requirements.txt
-├── uploads/
-│
+Detector/
+├── .venv/
 ├── templates/
 │   └── index.html
-│
-└── static/
+├── uploads/
+├── app.py
+└── README.md
 ```
 
 ---
