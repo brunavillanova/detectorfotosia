@@ -75,7 +75,7 @@ border-radius:10px;
 
 <h1>🤖 Detector de Imagem IA</h1>
 
-<form onsubmit="return false;">
+<form method="POST" enctype="multipart/form-data">
 
 <input type="file" name="imagem" accept="image/*" onchange="previewImagem(event)" required>
 
@@ -88,7 +88,12 @@ border-radius:10px;
 <div class="preview">
 <img id="preview">
 </div>
-<div class="resultado" id="resultado"></div>
+
+<div class="resultado" id="resultado">
+{% if resultado %}
+{{ resultado }}
+{% endif %}
+</div>
 
 </div>
 
