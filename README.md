@@ -46,8 +46,7 @@ Detector/
 Clone o repositório:
 
 ```
-git clone git clone https://github.com/brunavillanova/Detector-de-Imagens-Geradas-por-IA.git
-```
+git clone git clone https://github.com/brunavillanova/detectorfotosia.git
 
 Entre na pasta do projeto:
 
